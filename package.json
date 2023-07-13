@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "typedoc": "0.24.8",
+    "typescript": "5.1.6"
+  },
+  "scripts": {
+    "build": "typedoc --out docs src/index.ts --tsconfig tsconfig.json",
+    "clean": "rm -rf docs"
+  }
+}
